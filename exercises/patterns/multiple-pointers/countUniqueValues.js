@@ -13,8 +13,8 @@ const countUniqueValues = (numberArr) => {
 
   for (let right = 1; right < numberArr.length; right++) {
     if (numberArr[left] !== numberArr[right]) {
-      numberArr[left + 1] = numberArr[right];
       left++;
+      numberArr[left] = numberArr[right];
     }
   }
 
