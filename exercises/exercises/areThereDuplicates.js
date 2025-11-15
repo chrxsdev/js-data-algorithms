@@ -11,7 +11,7 @@ areThereDuplicates(1, 2, 3) // false
  */
 
 /**
- * Solution with Frecuency Counter
+ * Solution with Frequency Counter
  */
 const areThereDuplicatesWithFC = (...args) => {
   const items = {};
@@ -44,7 +44,7 @@ const areThereDuplicatesWithMP = (...args) => {
   return false;
 };
 
-console.log('--- Results with Frecuency Counter ---');
+console.log('--- Results with Frequency Counter ---');
 console.log(areThereDuplicatesWithFC(5, 2, 4, 5)); // true
 console.log(areThereDuplicatesWithFC('a', 'b', 'c', 'a')); // true
 console.log(areThereDuplicatesWithFC(1, 2, 2)); // true
